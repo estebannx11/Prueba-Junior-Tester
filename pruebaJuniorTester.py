@@ -15,8 +15,8 @@ def creacion_usuario():
     a.find_element(By.LINK_TEXT, "Sign Up").click()
     
     #Llenar datos del formulario de registro
-    a.find_element(By.ID, "fullname").send_keys("prueba1")
-    a.find_element(By.ID, "email").send_keys("prueba@prueba1.prueba1.com")
+    a.find_element(By.ID, "fullname").send_keys("prueba")
+    a.find_element(By.ID, "email").send_keys("prueba@prueba.prueba.com")
     a.find_element(By.ID, "password").send_keys("Prueba123*")
     #Enviar los datos del formulario
     #Se usa la funcion XPATH para el boton enviar
